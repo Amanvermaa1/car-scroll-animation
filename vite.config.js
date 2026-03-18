@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/itzfizz-scroll/',
+  base: '/car-scroll-animation/',
   plugins: [react(), tailwindcss()],
 })

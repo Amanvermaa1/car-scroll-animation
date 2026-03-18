@@ -1,16 +1,45 @@
-# React + Vite
+# Car Scroll Animation - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A scroll-driven hero section animation inspired by [paraschaturvedi.github.io/car-scroll-animation](https://paraschaturvedi.github.io/car-scroll-animation), built with React, Vite, Tailwind CSS, and GSAP.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Scroll-based car animation that moves across the screen
+- Letter-by-letter text reveal ("W E L C O M E I T Z F I Z Z") synchronized with scroll
+- Statistics boxes (58%, 23%, 27%, 40%) that fade in on scroll
+- Smooth, performant animations using GSAP ScrollTrigger
+- Green trail following the car
+- Fully responsive design
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: React 19 + Vite 8
+- **Styling**: Tailwind CSS 4
+- **Animation**: GSAP with ScrollTrigger
+- **Language**: JavaScript
 
-## Expanding the ESLint configuration
+## Quick Start
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+npm run build
+npm run preview
+```
+
+## Live Demo
+
+**GitHub Pages**: https://amanvermaa1.github.io/car-scroll-animation/
+
+## Deployment
+
+```bash
+npm run deploy
+```
+
+## Internship Assignment
+
+This project was created for the **Web Development Internship at Itzfizz Digital**.
+
+- **Duration**: 6 Months
+- **Stipend**: ₹4,000/month + Quarterly Bonus upto ₹5,000
